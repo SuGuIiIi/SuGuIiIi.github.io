@@ -1,0 +1,14 @@
+[build]
+  command = "npm install && hexo generate"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "18"
+E
+cat > /Users/sugui/myblog/netlify.toml << 'EOF'
+[build]
+  command = "npm install && hexo generate"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "18"
